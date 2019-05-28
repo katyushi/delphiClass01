@@ -8,11 +8,14 @@
     <Transaction>2019/02/12 10:20:59.000.931,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2019/02/13 07:27:47.000.015,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2019/02/13 07:41:55.000.630,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2019/02/13 07:45:10.000.666,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Admin\Desktop\teste\cliente.dfm</Transaction>
-    <Transaction>2019/02/13 07:45:10.000.666,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Admin\Desktop\teste\cliente.pas</Transaction>
-    <Transaction>2019/02/13 07:49:07.000.728,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Admin\Desktop\teste\sistema.dproj</Transaction>
+    <Transaction>2019/02/13 07:45:10.000.666,C:\Users\Admin\Desktop\teste\cliente.dfm=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/02/13 07:45:10.000.666,C:\Users\Admin\Desktop\teste\cliente.pas=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/02/13 07:49:07.000.728,C:\Users\Admin\Desktop\teste\sistema.dproj=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2019/02/13 09:11:23.000.554,=C:\Users\Admin\Desktop\teste\Unit2.pas</Transaction>
-    <Transaction>2019/02/13 09:12:47.000.830,C:\Users\Admin\Desktop\teste\Unit2.pas=C:\Users\Admin\Desktop\teste\produtos.pas</Transaction>
-    <Transaction>2019/02/13 09:12:47.000.830,C:\Users\Admin\Desktop\teste\Unit2.dfm=C:\Users\Admin\Desktop\teste\produtos.dfm</Transaction>
+    <Transaction>2019/02/13 09:12:47.000.830,C:\Users\Admin\Desktop\teste\produtos.pas=C:\Users\Admin\Desktop\teste\Unit2.pas</Transaction>
+    <Transaction>2019/02/13 09:12:47.000.830,C:\Users\Admin\Desktop\teste\produtos.dfm=C:\Users\Admin\Desktop\teste\Unit2.dfm</Transaction>
+    <Transaction>2019/05/15 11:03:00.849,=C:\Users\hugo lazzari\Documents\gitRepos\delphiClass01\VendasDs\Unit1.pas</Transaction>
+    <Transaction>2019/05/15 11:12:19.252,C:\Users\hugo lazzari\Documents\gitRepos\delphiClass01\VendasDs\produtos1.pas=C:\Users\hugo lazzari\Documents\gitRepos\delphiClass01\VendasDs\Unit1.pas</Transaction>
+    <Transaction>2019/05/15 11:12:19.252,C:\Users\hugo lazzari\Documents\gitRepos\delphiClass01\VendasDs\produtos1.dfm=C:\Users\hugo lazzari\Documents\gitRepos\delphiClass01\VendasDs\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

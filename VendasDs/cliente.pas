@@ -6,7 +6,7 @@ uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Mask,
   Vcl.Imaging.pngimage, Vcl.Buttons, Vcl.Imaging.jpeg, Vcl.ComCtrls,
-  Vcl.Samples.Gauges;
+  Vcl.Samples.Gauges, Vcl.Menus;
 
 type
   TfCliente = class(TForm)
@@ -40,6 +40,33 @@ type
     Image1: TImage;
     ComboBox1: TComboBox;
     btnSair: TButton;
+    MainMenu1: TMainMenu;
+    Cadastro1: TMenuItem;
+    Cliente1: TMenuItem;
+    Produtos1: TMenuItem;
+    Vendedores1: TMenuItem;
+    Cidades1: TMenuItem;
+    ipoNotaFiscal1: TMenuItem;
+    Vendas1: TMenuItem;
+    Relatorios1: TMenuItem;
+    Calculadora1: TMenuItem;
+    Sair1: TMenuItem;
+    Grupo1: TMenuItem;
+    Subgrupo1: TMenuItem;
+    Produto1: TMenuItem;
+    Relatorio1: TMenuItem;
+    Balanco1: TMenuItem;
+    ProdVendidos1: TMenuItem;
+    ProdparaCompra1: TMenuItem;
+    ProdparaCompra2: TMenuItem;
+    Representante1: TMenuItem;
+    ConsFinal1: TMenuItem;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    Estados1: TMenuItem;
+    N3: TMenuItem;
+    N4: TMenuItem;
+    N5: TMenuItem;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormClick(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
@@ -58,6 +85,9 @@ type
     procedure SpeedButton1Click(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     procedure ComboBox1Select(Sender: TObject);
+    procedure Sair1Click(Sender: TObject);
+    procedure Calculadora1Click(Sender: TObject);
+    procedure Produto1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -72,6 +102,8 @@ var
 implementation
 
 {$R *.dfm}
+
+uses produtos1;
 
 procedure TfCliente.btnCliqueClick(Sender: TObject);
 begin
@@ -90,6 +122,11 @@ begin
                ShowMessage('boa noite...'+x);
 
                Application.Terminate;
+end;
+
+procedure TfCliente.Calculadora1Click(Sender: TObject);
+begin
+      winexec('calc.exe',SW_SHOW);
 end;
 
 procedure TfCliente.chkHabilitaClick(Sender: TObject);
@@ -196,6 +233,11 @@ begin
   end; }
 end;
 
+procedure TfCliente.Produto1Click(Sender: TObject);
+begin
+fProduto.ShowModal;
+end;
+
 procedure TfCliente.mmObsClick(Sender: TObject);
 begin
  mmObs.Lines.Clear;
@@ -223,6 +265,11 @@ mmObs.Visible:=true;
 if rdgOpcoes.ItemIndex=1 then
 mmObs.Visible:=false;
 
+end;
+
+procedure TfCliente.Sair1Click(Sender: TObject);
+begin
+    Application.Terminate;
 end;
 
 procedure TfCliente.SpeedButton1Click(Sender: TObject);
